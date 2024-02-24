@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="22f733a6-bf77-4b35-875b-21b4c2bfdddc" name="变更" comment="1">
+      <change afterPath="$PROJECT_DIR$/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.jpg.enp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.tif.enp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AItest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GDAL-3.4.3-cp39-cp39-win_amd64.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/change_detection/bit/.success" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/change_detection/bit/model.pdiparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/change_detection/bit/model.pdiparams.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/change_detection/bit/model.pdmodel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/change_detection/bit/model.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/change_detection/bit/pipeline.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/change_detection/cdnet/.success" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/change_detection/cdnet/model.pdiparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/change_detection/cdnet/model.pdiparams.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/change_detection/cdnet/model.pdmodel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/change_detection/cdnet/model.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/change_detection/cdnet/pipeline.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/classification/DeepLabV3P/model.pdiparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/classification/DeepLabV3P/model.pdiparams.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/classification/DeepLabV3P/model.pdmodel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/classification/DeepLabV3P/model.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/classification/DeepLabV3P/pipeline.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/object_detection/faster_rcnn/.success" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/object_detection/faster_rcnn/model.pdiparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/object_detection/faster_rcnn/model.pdiparams.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/object_detection/faster_rcnn/model.pdmodel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/object_detection/faster_rcnn/model.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/object_detection/faster_rcnn/pipeline.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/object_detection/ppyolo/model.pdiparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/object_detection/ppyolo/model.pdiparams.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/object_detection/ppyolo/model.pdmodel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/object_detection/ppyolo/model.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/object_detection/ppyolo/pipeline.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/object_detection/ppyolo2/.success" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/object_detection/ppyolo2/model.pdiparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/object_detection/ppyolo2/model.pdiparams.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/object_detection/ppyolo2/model.pdmodel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/object_detection/ppyolo2/model.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/object_detection/ppyolo2/pipeline.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/object_detection/yolov3/.success" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/object_detection/yolov3/model.pdiparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/object_detection/yolov3/model.pdiparams.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/object_detection/yolov3/model.pdmodel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/object_detection/yolov3/model.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RS/models/object_detection/yolov3/pipeline.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aaa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/interpret/AItest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CD/20200407.tiff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CD/20200407_Subset.tiff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CD/20200722.tiff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CD/20200722.tiff.histInfo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CD/20200722_Subset.tiff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CD/im1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CD/im2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/OD/SARShip-1.0-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/OD/SARShip-1.0-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80010812013365LGN00_18_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80010812013365LGN00_18_data.tif.enp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80020622013244LGN00_32_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80050152014172LGN00_12_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80050562014076LGN00_33_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80150242014146LGN00_23_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80190352014078LGN01_26_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80200462014213LGN00_11_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80250402013245LGN00_45_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80250482014072LGN00_18_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80310432013207LGN00_11_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80320282013182LGN00_30_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80340412013132LGN01_20_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80380362013144LGN00_26_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80390152013215LGN00_17_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80430352013243LGN00_31_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80470252014226LGN00_11_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80500162014247LGN00_21_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80630462013191LGN00_11_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80750722014022LGN00_16_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80750962014038LGN00_14_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80760912014013LGN00_25_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80800142014169LGN00_05_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80900832013220LGN00_28_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80910892014006LGN00_44_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80940802014092LGN00_17_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC80980732014008LGN00_31_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81020642014004LGN00_32_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81060772014064LGN00_17_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81110822013288LGN00_11_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81130672013142LGN01_26_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81140272013261LGN00_32_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81140622013277LGN00_23_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81180602014116LGN00_29_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81220242014240LGN00_25_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81230362013276LGN00_19_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81250542014181LGN00_39_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81250622013178LGN01_08_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81280422014074LGN00_16_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81330492014141LGN00_26_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81340422013257LGN00_16_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81360162013159LGN00_18_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81360162014210LGN00_32_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81370412014105LGN00_30_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81370452014073LGN00_23_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81400372014158LGN00_27_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81460442013293LGN00_38_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81480352013195LGN00_32_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81490372013362LGN00_39_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81500412014244LGN00_18_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81500442013145LGN00_16_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81540102013205LGN00_18_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81550232014135LGN00_26_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81580442014140LGN00_21_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81610712013222LGN00_09_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81660432014100LGN00_35_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81670512014091LGN00_32_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81700252014080LGN00_27_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81700802014016LGN00_23_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81720642014334LGN00_25_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81730542014277LGN00_23_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81730742014085LGN00_11_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81750832014067LGN00_24_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81800332013147LGN00_33_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81810592013218LGN00_05_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81830242014091LGN00_16_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81830642014203LGN00_16_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81860432014224LGN00_19_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81950282013156LGN00_33_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC81950502014223LGN00_22_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC82010332014105LGN00_34_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC82151102013360LGN00_26_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC82160662014146LGN00_14_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC82170152014249LGN00_38_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC82210662014229LGN00_18_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC82260732013357LGN00_32_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC82290562014157LGN00_24_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC82290782013282LGN00_12_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC82290872014013LGN00_20_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC82310942013344LGN00_17_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/seg/LC82320772014306LGN00_38_data.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res.jpg.enp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/README_CN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/README_EN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/bit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/cdnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/changeformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/dsamnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/dsifn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/fc_ef.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/fc_siam_conc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/fc_siam_diff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/fccdn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/best_model/.success" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/best_model/eval_details.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/best_model/model.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/best_model/model.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/best_model/model.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/epoch_10/.success" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/epoch_10/eval_details.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/epoch_10/model.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/epoch_10/model.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/epoch_10/model.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/epoch_3/.success" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/epoch_3/eval_details.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/epoch_3/model.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/epoch_3/model.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/epoch_3/model.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/epoch_6/.success" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/epoch_6/eval_details.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/epoch_6/model.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/epoch_6/model.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/epoch_6/model.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/epoch_9/.success" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/epoch_9/eval_details.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/epoch_9/model.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/epoch_9/model.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/epoch_9/model.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/output/cdnet/vdl_log/vdlrecords.1703585662.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/p2v.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/snunet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/change_detection/stanet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/condensenetv2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/hrnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/mobilenetv3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/output/condensenetv2/best_model/.success" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/output/condensenetv2/best_model/eval_details.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/output/condensenetv2/best_model/model.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/output/condensenetv2/best_model/model.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/output/condensenetv2/best_model/model.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/output/condensenetv2/vdl_log/vdlrecords.1695740916.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/output/condensenetv2/vdl_log/vdlrecords.1695741632.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/output/condensenetv2/vdl_log/vdlrecords.1695742362.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/output/mobilenetv3/best_model/.success" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/output/mobilenetv3/best_model/eval_details.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/output/mobilenetv3/best_model/model.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/output/mobilenetv3/best_model/model.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/output/mobilenetv3/best_model/model.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/output/mobilenetv3/pretrain/MobileNetV3_small_x1_0_pretrained.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/output/mobilenetv3/vdl_log/vdlrecords.1695743335.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/output/resnet50_vd/best_model/.success" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/output/resnet50_vd/best_model/eval_details.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/output/resnet50_vd/best_model/model.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/output/resnet50_vd/best_model/model.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/output/resnet50_vd/best_model/model.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/output/resnet50_vd/pretrain/ResNet50_vd_pretrained.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/output/resnet50_vd/vdl_log/vdlrecords.1695742720.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/classification/resnet50_vd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/image_restoration/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/image_restoration/drn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/image_restoration/esrgan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/image_restoration/lesrcnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/image_restoration/nafnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/image_restoration/swinir.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/object_detection/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/object_detection/faster_rcnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/object_detection/fcosr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/object_detection/output/faster_rcnn/best_model/.success" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/object_detection/output/faster_rcnn/best_model/eval_details.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/object_detection/output/faster_rcnn/best_model/model.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/object_detection/output/faster_rcnn/best_model/model.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/object_detection/output/faster_rcnn/best_model/model.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/object_detection/output/faster_rcnn/pretrain/faster_rcnn_r50_fpn_2x_coco.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/object_detection/output/faster_rcnn/vdl_log/vdlrecords.1695743544.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/object_detection/output/yolov3/best_model/.success" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/object_detection/output/yolov3/best_model/eval_details.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/object_detection/output/yolov3/best_model/model.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/object_detection/output/yolov3/best_model/model.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/object_detection/output/yolov3/best_model/model.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/object_detection/output/yolov3/pretrain/DarkNet53_pretrained.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/object_detection/output/yolov3/vdl_log/vdlrecords.1695825681.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/object_detection/ppyolo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/object_detection/ppyolo_tiny.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/object_detection/ppyoloe_r.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/object_detection/ppyolov2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/object_detection/yolov3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/semantic_segmentation/bisenetv2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/semantic_segmentation/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/semantic_segmentation/deeplabv3p.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/semantic_segmentation/factseg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/semantic_segmentation/farseg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/semantic_segmentation/fast_scnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/semantic_segmentation/hrnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/semantic_segmentation/output/deeplabv3p/pretrain/model.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/semantic_segmentation/output/deeplabv3p/vdl_log/vdlrecords.1696929623.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/semantic_segmentation/unet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Omniviz_sys/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Omniviz_sys/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Omniviz_sys/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Omniviz_sys/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaddleRS/tutorials/train/object_detection/faster_rcnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/PaddleRS/tutorials/train/object_detection/faster_rcnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaddleRS/tutorials/train/object_detection/fcosr.py" beforeDir="false" afterPath="$PROJECT_DIR$/PaddleRS/tutorials/train/object_detection/fcosr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaddleRS/tutorials/train/object_detection/ppyolov2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PaddleRS/tutorials/train/object_detection/ppyolov2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/interpret/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/interpret/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/interpret/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/interpret/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2TdkeQExJAyPYmy5CxjMY9RjdsL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/my-website/Omniviz_sys&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\my-website\Omniviz_sys\apps\interpret" />
+      <recent name="E:\my-website\Omniviz_sys" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\大创网站\Omniviz_sys\apps" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.aaa">
+    <configuration name="AItest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Omniviz_sys" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AItest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="aaa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Omniviz_sys" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aaa.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="faster_rcnn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Omniviz_sys" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PaddleRS/tutorials/train/object_detection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PaddleRS/tutorials/train/object_detection/faster_rcnn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fcosr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Omniviz_sys" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PaddleRS/tutorials/train/object_detection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PaddleRS/tutorials/train/object_detection/fcosr.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ppyolov2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Omniviz_sys" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PaddleRS/tutorials/train/object_detection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PaddleRS/tutorials/train/object_detection/ppyolov2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Omniviz_sys" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Omniviz_sys" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Omniviz_sys.settings" />
+      </envs>
+      <option name="SDK_HOME" value="E:\py\Omniviz_sys\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="192.168.2.6" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django 服务器.Omniviz_sys" />
+      <item itemvalue="Python.aaa" />
+      <item itemvalue="Python.fcosr" />
+      <item itemvalue="Python.ppyolov2" />
+      <item itemvalue="Python.faster_rcnn" />
+      <item itemvalue="Python.AItest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.aaa" />
+        <item itemvalue="Python.AItest" />
+        <item itemvalue="Python.ppyolov2" />
+        <item itemvalue="Python.fcosr" />
+        <item itemvalue="Python.faster_rcnn" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="22f733a6-bf77-4b35-875b-21b4c2bfdddc" name="变更" comment="" />
+      <created>1691380439667</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691380439667</updated>
+      <workItem from="1691380610497" duration="5126000" />
+      <workItem from="1691397096228" duration="7636000" />
+      <workItem from="1691483096703" duration="3211000" />
+      <workItem from="1691491770713" duration="241000" />
+      <workItem from="1691492022453" duration="16000" />
+      <workItem from="1691492614714" duration="81000" />
+      <workItem from="1691492908747" duration="115000" />
+      <workItem from="1691493052558" duration="50000" />
+      <workItem from="1691493127295" duration="331000" />
+      <workItem from="1691493470046" duration="178000" />
+      <workItem from="1691493667635" duration="1414000" />
+      <workItem from="1691495134710" duration="35000" />
+      <workItem from="1691495192979" duration="844000" />
+      <workItem from="1691566073778" duration="3978000" />
+      <workItem from="1691588774638" duration="2777000" />
+      <workItem from="1691842871352" duration="12000" />
+      <workItem from="1693720302432" duration="9274000" />
+      <workItem from="1693738583323" duration="67000" />
+      <workItem from="1693981137386" duration="5000" />
+      <workItem from="1694770633766" duration="14000" />
+      <workItem from="1695557879299" duration="5613000" />
+      <workItem from="1695564139189" duration="3033000" />
+      <workItem from="1695633829237" duration="1849000" />
+      <workItem from="1695637095677" duration="53000" />
+      <workItem from="1695637292613" duration="4066000" />
+      <workItem from="1695645109870" duration="3459000" />
+      <workItem from="1695652553197" duration="6915000" />
+      <workItem from="1695736425526" duration="5053000" />
+      <workItem from="1695810179462" duration="11000" />
+      <workItem from="1695825586876" duration="2288000" />
+      <workItem from="1696496957774" duration="49000" />
+      <workItem from="1696574498223" duration="11959000" />
+      <workItem from="1696608722171" duration="1267000" />
+      <workItem from="1696642483458" duration="8000" />
+      <workItem from="1696662837163" duration="1436000" />
+      <workItem from="1696665810667" duration="285000" />
+      <workItem from="1696682048447" duration="183000" />
+      <workItem from="1696764843498" duration="2169000" />
+      <workItem from="1696823028778" duration="12000" />
+      <workItem from="1696928575369" duration="4067000" />
+      <workItem from="1700479969597" duration="10169000" />
+      <workItem from="1700644373368" duration="126000" />
+      <workItem from="1700714045462" duration="14000" />
+      <workItem from="1701180896999" duration="3360000" />
+      <workItem from="1701191262113" duration="10000" />
+      <workItem from="1701249511195" duration="9093000" />
+      <workItem from="1701275098497" duration="1368000" />
+      <workItem from="1701354998973" duration="2638000" />
+      <workItem from="1701418977987" duration="5796000" />
+      <workItem from="1701513134825" duration="4950000" />
+      <workItem from="1701585143974" duration="5347000" />
+      <workItem from="1701756540497" duration="260000" />
+      <workItem from="1701881279137" duration="91000" />
+      <workItem from="1701929370880" duration="131000" />
+      <workItem from="1703319685864" duration="11883000" />
+      <workItem from="1703406712350" duration="8027000" />
+      <workItem from="1703437668509" duration="106000" />
+      <workItem from="1703489764446" duration="16892000" />
+      <workItem from="1703579206644" duration="983000" />
+      <workItem from="1703581848574" duration="10502000" />
+      <workItem from="1704779732148" duration="245000" />
+      <workItem from="1708257976221" duration="949000" />
+      <workItem from="1708351700120" duration="5980000" />
+      <workItem from="1708429718341" duration="5951000" />
+      <workItem from="1708486620208" duration="9739000" />
+      <workItem from="1708575213568" duration="17678000" />
+      <workItem from="1708665845352" duration="1653000" />
+    </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1691494411389</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691494411389</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1">
+      <created>1691496005356</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691496005356</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Omniviz_sys$cdnet.coverage" NAME="cdnet 覆盖结果" MODIFIED="1703585644814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PaddleRS/tutorials/train/change_detection" />
+    <SUITE FILE_PATH="coverage/Omniviz_sys$changeformer.coverage" NAME="changeformer 覆盖结果" MODIFIED="1708439841002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PaddleRS/tutorials/train/change_detection" />
+    <SUITE FILE_PATH="coverage/Omniviz_sys$deeplabv3p.coverage" NAME="deeplabv3p 覆盖结果" MODIFIED="1696929360021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PaddleRS/tutorials/train/semantic_segmentation" />
+    <SUITE FILE_PATH="coverage/Omniviz_sys$ppyolov2.coverage" NAME="ppyolov2 覆盖结果" MODIFIED="1708591834835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PaddleRS/tutorials/train/object_detection" />
+    <SUITE FILE_PATH="coverage/Omniviz_sys$predictor.coverage" NAME="predictor 覆盖结果" MODIFIED="1703591839977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../py/Omniviz_sys/Lib/site-packages/paddlers/deploy" />
+    <SUITE FILE_PATH="coverage/Omniviz_sys$AItest__1_.coverage" NAME="AItest (1) 覆盖结果" MODIFIED="1701515467856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/interpret" />
+    <SUITE FILE_PATH="coverage/Omniviz_sys$AItest.coverage" NAME="AItest 覆盖结果" MODIFIED="1708600780107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Omniviz_sys$faster_rcnn.coverage" NAME="faster_rcnn 覆盖结果" MODIFIED="1708591148525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PaddleRS/tutorials/train/object_detection" />
+    <SUITE FILE_PATH="coverage/Omniviz_sys$resnet50_vd.coverage" NAME="resnet50_vd 覆盖结果" MODIFIED="1695742659124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PaddleRS/tutorials/train/classification" />
+    <SUITE FILE_PATH="coverage/Omniviz_sys$aaa.coverage" NAME="aaa 覆盖结果" MODIFIED="1708666815645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Omniviz_sys$bit.coverage" NAME="bit 覆盖结果" MODIFIED="1708440663590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PaddleRS/tutorials/train/change_detection" />
+    <SUITE FILE_PATH="coverage/Omniviz_sys$condensenetv2.coverage" NAME="condensenetv2 覆盖结果" MODIFIED="1695742339215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PaddleRS/tutorials/train/classification" />
+    <SUITE FILE_PATH="coverage/Omniviz_sys$mobilenetv3.coverage" NAME="mobilenetv3 覆盖结果" MODIFIED="1695743308106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PaddleRS/tutorials/train/classification" />
+    <SUITE FILE_PATH="coverage/Omniviz_sys$views.coverage" NAME="views 覆盖结果" MODIFIED="1708586823614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/interpret" />
+    <SUITE FILE_PATH="coverage/Omniviz_sys$111.coverage" NAME="111 覆盖结果" MODIFIED="1691402608692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Omniviz_sys$yolov3.coverage" NAME="yolov3 覆盖结果" MODIFIED="1708520859985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PaddleRS/tutorials/train/object_detection" />
+    <SUITE FILE_PATH="coverage/Omniviz_sys$fcosr.coverage" NAME="fcosr 覆盖结果" MODIFIED="1708591554646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PaddleRS/tutorials/train/object_detection" />
+  </component>
+</project>
